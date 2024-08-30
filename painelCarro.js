@@ -17,7 +17,7 @@ const painelCarro= (function carro() {
             return velocimetro (10);
         },
         frear(){
-            return frear (-10);
+            return velocimetro (-10);
         },
         painel(){
             console.log("velocidade",value,"KM");
@@ -63,4 +63,5 @@ painelCarro.acelerar();
 painelCarro.acelerar();
 painelCarro.passarmarcha();
 painelCarro.opalabeberao();
+painelCarro.frear();
 painelCarro.painel();
